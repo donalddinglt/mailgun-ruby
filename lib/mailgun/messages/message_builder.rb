@@ -371,7 +371,7 @@ module Mailgun
 
     # Parses the address and gracefully handles any
     # missing parameters. The result should be something like:
-    # "'First Last' <person@domain.com>"
+    # "First Last <person@domain.com>"
     #
     # @param [String] address The email address to parse.
     # @param [Hash] variables A list of recipient variables.
